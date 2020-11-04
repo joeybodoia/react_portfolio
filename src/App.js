@@ -1,9 +1,19 @@
+import React from "react"
 import logo from './logo.svg';
 import './App.css';
 import Project from "./project"
 import Navbar from "./navbar"
+import SSModal from "./SuperheroModal"
+import SuperheroModal from './SuperheroModal';
 
 function App() {
+
+  const modalRef = React.useRef()
+
+  const openModal = () => {
+    modalRef.current.openModal()
+  }
+  
   return (
     <div className="App">
       <header>
@@ -12,6 +22,10 @@ function App() {
       <div className="aboutMe">
        <h1 className="portfolio"> My Portfolio </h1>
       </div>
+      <button onClick={openModal}>Open Modal</button>
+      <SuperheroModal ref={modalRef}>
+        <button onClick={()=>modalRef.current.close()}>Close</button>
+      </SuperheroModal>
       <div className="projectTitle">
        <h2>Projects:</h2>
       </div>
