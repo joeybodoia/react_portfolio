@@ -2,31 +2,31 @@ import React, {forwardRef, useImperativeHandle} from "react"
 import ReactDOM from "react-dom"
 
 
-const SuperheroModal = forwardRef((props, ref) => {
+const CodexModal = forwardRef((props, ref) => {
     const [display,setDisplay] = React.useState(false);
 
     useImperativeHandle(ref, ()=>{
         return {
-            openModal: ()=> open(),
-            close: ()=>close()
+            openModalC: ()=> openC(),
+            closeC: ()=>closeC()
         }
     })
 
-    const open = () => {
+    const openC = () => {
         setDisplay(true)
     }
 
-    const close = () => {
+    const closeC = () => {
         setDisplay(false)
     }
 
     if (display) {
         return ReactDOM.createPortal(
         <div className={'modal-wrapper'}>
-            <div onClick={close} className={"modal-backdrop"}></div>
+            <div onClick={closeC} className={"modal-backdrop"}></div>
             <div className={"modal-box"}>
-                <h1>Modal</h1>
-                <button onClick={close}>Close</button>
+                <h1>Codex Modal</h1>
+                <button onClick={closeC}>Close</button>
             </div>
         </div>, document.getElementById("modal-root")
     )
@@ -35,4 +35,4 @@ const SuperheroModal = forwardRef((props, ref) => {
     }
 })
 
-export default SuperheroModal
+export default CodexModal

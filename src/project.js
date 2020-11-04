@@ -13,7 +13,7 @@ const Project = (props) => {
   return (
     <div className="projectDiv">
     <h1>{props.name}</h1>
-      <img className = "img shrink" src={props.img} alt={props.alt} />
+      <img className = "img shrink" src={props.img} alt={props.alt} onClick={props.open}/>
       <div className='Container '>
         {frontend ? <h3><a href={props.gitFront} target="_blank" className="shrink">github frontend</a></h3>: (git ? <h3><a href={props.git} target="_blank" className="shrink">github</a></h3>: null) }
         {backend ? <h3><a href={props.gitBack} target="_blank" className="shrink">github backend</a></h3>: null }
