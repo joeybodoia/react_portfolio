@@ -37,11 +37,21 @@ function App() {
   
   return (
     <div className="App">
-      <header>
-       <Navbar/>
+      <header class="header">
+      <ul class="main-nav">
+          <li><a href="#">Github</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Resumé</a></li>
+          <li><a href="#">Email</a></li>
+      </ul>
+       
       </header>
       <div className="aboutMe">
        <h1 className="portfolio"> My Portfolio </h1>
+       <h3>About me:</h3>
+       <p>
+         I am a junior at Claremont McKenna College, majoring in Data Science with a sequence in Computer Science. As a freshman, I played on the CMS basketball team. In addition to pursuing Data Science and Computer Science at CMC, I am currently in the final month of a 6 month software engineering immersive program at General Assembly. Through this cohort, I have gained experience with full-stack development, utilizing tolls such as HTML, CSS, JavaScript, jQuery, Express, MongoDB, Mongoose, React.js, and Node.js.
+       </p>
       </div>
       <SuperheroModal ref={modalRef} />
       <AnimeModal ref={modalARef}/>
@@ -62,7 +72,7 @@ function App() {
         </div>
         <div className="project">
           <Project
-            name={"AnimeRex"}
+            name={"AniméRex"}
             git={"https://github.com/joeybodoia/testProject"}
             live={"https://jbproject2.herokuapp.com/animeRec"}
             img={"https://i.imgur.com/1wY7gZ9.png"}
