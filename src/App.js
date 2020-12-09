@@ -38,19 +38,12 @@ function App() {
   return (
     <div className="App">
       <header class="header">
-      {/* <ul class="main-nav">
-          <li><a href="#" class="fa fa-github-square"></a></li>
-          <li><a href="#" class="fa fa-linkedin-square"></a></li>
-          <li><a href="#" class="fa fa-file-text"></a></li>
-          <li><a href="#" class="fa fa-envelope-square"></a></li>
-      </ul> */}
-      <div className = "socialMedia">
-        <a href="#" class="fa fa-github-square"></a>
-        <a href="#" class="fa fa-linkedin-square"></a>
-        <a href="#" class="fa fa-file-text"></a>
-        <a href="#" class="fa fa-envelope-square"></a>
-      </div>
-       
+        <div className = "socialMedia">
+          <a href="https://github.com/joeybodoia" class="fa fa-github-square"></a>
+          <a href="https://www.linkedin.com/in/joseph-bodoia/" class="fa fa-linkedin-square"></a>
+          <a href="#" class="fa fa-file-text"></a>
+          <a href="mailto:jbodoia21@cmc.edu?Subject=Hello%20There!" class="fa fa-envelope-square"></a>
+        </div>
       </header>
       <div className="aboutMe">
         <div className="picture">

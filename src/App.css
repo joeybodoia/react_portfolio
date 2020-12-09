@@ -100,7 +100,7 @@ body {
 
 .Container a {
   display:block;
-  border: 2px solid rgb(255,223,0);
+  border: 2px solid black;
   border-radius: 3px;
   color: rgb(255,223,0);
   padding: 0.5vw 0.7vw 0vw 0.7vw;
@@ -119,7 +119,7 @@ body {
 .img {
   width: 80%;
   height:20vw;
-  border: 4px solid rgb(255,223,0);
+  border: 4px solid rgb(128,0,0);
   border-radius: 5px;
   margin-bottom: 1vw;
 }
@@ -194,7 +194,7 @@ body {
 		transition: 350ms;
 		opacity: .94;
 		border-style: solid;
-		border-color: black;
+		border-color: rgb(255,223,0);
 }
 
 .modal-wrapper {
