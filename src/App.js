@@ -70,7 +70,7 @@ function App() {
       <CodexModal ref={modalCRef}/>
       <Connect4Modal ref={modalC4Ref}/>
       <div className="projectTitle">
-       <h2>Projects:</h2>
+       <h2>Projects</h2>
       </div>
       <div className="container">
         <div className="project">
