@@ -42,58 +42,7 @@ body {
   background-color: lightpink;
 }
 
-.header {
-  border: 3px solid red;
-  /* display: flex; */
-}
 
-
-.main-nav {
-  margin-top: 5px;
-  list-style-type: none;
-  display: flex;
-
-}
-.main-nav a {
-	padding: 10px 15px;
-	text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  align-self: center;
-}
-
-.main-nav a {
-	color: black;
-	font-size: 1vw;
-}
-
-.main-nav a:hover {
-	color: #718daa;
-}
-/*
-
-@media (min-width: 769px) {
-	.header,
-	.main-nav {
-		display: flex;
-	}
-	.header {
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		margin: 0 auto;
-		max-width: 1150px;
-	}
-}
-
-@media (min-width: 1025px) {
-	.header {
-    width: 100%;
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-}  */
 
 
 .portfolio {
@@ -102,17 +51,17 @@ body {
 
 .container {
   height:100%;
-display: flex;
-flex-direction: row;
-flex-wrap:wrap;
-border: 5px solid white;
-justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  /* border: 5px solid white; */
+  justify-content: space-around;
 }
 
 .project {
   height:100%;
   width:33%;
-  border: 3px solid red;
+  border: 3px solid black;
   border-radius: 5px;
   margin: 4vw 1vw 0vw 1vw;
   background-color: beige;
@@ -174,53 +123,58 @@ justify-content: space-around;
 }
 
 
-
-
-.navContainer {
-  display: flex;
-  justify-content: space-around;
-  border: 2px solid black;
-}
-.nav {
-    display:flex;
-    width: 100%;
-    height: 4vw;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0 0 3em 0;
-    padding: 0;
-    list-style: none; 
-    border: 2px solid black;
-    background-color: beige;
-}
-
-.nav li {
-  height: 1vw;
-  position: relative;
-  border: 2px solid black;
-  
-}
-
-
-.nav li a {
-  border: 2px solid red;
-      position: relative;
-      color:black;
-      background-color:lightpink;
-      margin:0vw 0.5vw 0vw 0.5vw;
-      height:2vw;
-      font-size:1vw;
-}
-
-.aboutMe {
+.socialMedia {
   border: 3px solid black;
-  font-size: 1.5vw;
+  border-radius: 7px;
+  display: flex;
+  background-color: lightgray;
+  /* margin-bottom: 5vw; */
+  margin: 1vw 4vw 6vw 4vw;
 }
+.socialMedia a:hover {
+	color: rgba(0,0,0,0.7);
+}
+.fa-github-square {
+  padding: 20px;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 7vw;
+}
+
+.fa-linkedin-square {
+  padding: 20px;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 7vw;
+}
+
+.fa-file-text {
+  padding: 20px;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 7vw;
+}
+
+.fa-envelope-square {
+  padding: 20px;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 7vw;
+}
+
 
 .projectTitle {
-  display: flex;
+  /* display: flex; */
+  margin-top: 4vw;
   border: 3px solid black;
   font-size: 2vw;
+  background-color: lightgray;
+  margin: 2vw 4vw 7vw 4vw;
+  text-align: center;
 }
 
 
@@ -265,4 +219,36 @@ justify-content: space-around;
   box-shadow: 0 0 10px rgba(0,0,0,0.25);
   z-index: 101;
   padding: 40px;
+}
+
+.aboutMe {
+  /* border: 3px solid black; */
+  font-size: 1.5vw;
+  /* display: flex; */
+}
+
+.picture img{
+  border: 3px solid beige;
+  border-radius: 20px;
+}
+
+.description {
+  border: 3px solid black;
+  border-radius: 7px;
+  padding: 1vw 1vw 1vw 1vw;
+  margin: 2vw 4vw 7vw 4vw;
+  background-color: white;
+  font-size: 2vw;
+}
+
+.profilePic {
+  height: 20vw;
+
+}
+
+.Name {
+  border: 3px solid black;
+  border-radius: 7px;
+  background-color: lightgray;
+  margin: 2vw 4vw 2vw 4vw;
 }

@@ -38,20 +38,32 @@ function App() {
   return (
     <div className="App">
       <header class="header">
-      <ul class="main-nav">
-          <li><a href="#">Github</a></li>
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">Resumé</a></li>
-          <li><a href="#">Email</a></li>
-      </ul>
+      {/* <ul class="main-nav">
+          <li><a href="#" class="fa fa-github-square"></a></li>
+          <li><a href="#" class="fa fa-linkedin-square"></a></li>
+          <li><a href="#" class="fa fa-file-text"></a></li>
+          <li><a href="#" class="fa fa-envelope-square"></a></li>
+      </ul> */}
+      <div className = "socialMedia">
+        <a href="#" class="fa fa-github-square"></a>
+        <a href="#" class="fa fa-linkedin-square"></a>
+        <a href="#" class="fa fa-file-text"></a>
+        <a href="#" class="fa fa-envelope-square"></a>
+      </div>
        
       </header>
       <div className="aboutMe">
-       <h1 className="portfolio"> My Portfolio </h1>
-       <h3>About me:</h3>
-       <p>
-         I am a junior at Claremont McKenna College, majoring in Data Science with a sequence in Computer Science. As a freshman, I played on the CMS basketball team. In addition to pursuing Data Science and Computer Science at CMC, I am currently in the final month of a 6 month software engineering immersive program at General Assembly. Through this cohort, I have gained experience with full-stack development, utilizing tolls such as HTML, CSS, JavaScript, jQuery, Express, MongoDB, Mongoose, React.js, and Node.js.
-       </p>
+        <div className="picture">
+          <img src="https://i.imgur.com/R76JzbG.jpg?1" className="profilePic"></img>
+        </div>
+        <div className="Name">
+          <h1>Joey Bodoia</h1>
+        </div>
+        <div className = "description">
+          <p>
+            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a sequence in Computer Science. In addition to pursuing Data Science and Computer Science at CMC, I am currently in the final month of a 6 month software engineering immersive program at General Assembly. Through this cohort, I have gained experience with full-stack development, utilizing tools such as HTML, CSS, JavaScript, jQuery, Express, MongoDB, Mongoose, React.js, Node.js, Ruby, and Ruby on Rails. I have hosted a few of my full-stack web applications, as well as one video game project, in the project section below. I am looking to expand on my experience as a full-stack developer through an internship in summer 2021.
+          </p>
+        </div>
       </div>
       <SuperheroModal ref={modalRef} />
       <AnimeModal ref={modalARef}/>
