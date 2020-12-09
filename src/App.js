@@ -39,10 +39,10 @@ function App() {
     <div className="App">
       <header class="header">
         <div className = "socialMedia">
-          <a href="https://github.com/joeybodoia" class="fa fa-github-square"></a>
-          <a href="https://www.linkedin.com/in/joseph-bodoia/" class="fa fa-linkedin-square"></a>
-          <a href="#" class="fa fa-file-text"></a>
-          <a href="mailto:jbodoia21@cmc.edu?Subject=Hello%20There!" class="fa fa-envelope-square"></a>
+          <a href="https://github.com/joeybodoia" target="_blank" class="fa fa-github-square"></a>
+          <a href="https://www.linkedin.com/in/joseph-bodoia/" target="_blank" class="fa fa-linkedin-square"></a>
+          <a href="#" target="_blank" class="fa fa-file-text"></a>
+          <a href="mailto:jbodoia21@cmc.edu?Subject=Hello%20There!" target="_blank" class="fa fa-envelope-square"></a>
         </div>
       </header>
       <div className="aboutMe">
