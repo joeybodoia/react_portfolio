@@ -25,8 +25,7 @@ const ResumeModal = forwardRef((props, ref) => {
         <div className={'modal-wrapper'}>
             <div onClick={closeR} className={"modal-backdrop"}></div>
             <div className={"modal-box-resume"}>
-                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQOgBR3-ZnM9AWNY5Lq0XVWedr_6CVaRmZSVHiN1730gizFXrWV0N7pqVsNR22GiQ/pub?embedded=true" style={{'width':'70%', 'height':'100%'}}></iframe>
-
+                <iframe src="https://docs.google.com/document/d/e/2PACX-1vQOgBR3-ZnM9AWNY5Lq0XVWedr_6CVaRmZSVHiN1730gizFXrWV0N7pqVsNR22GiQ/pub?embedded=true" style={{'width':'80%', 'height':'100%'}}></iframe>    
                 <div>
                     <button onClick={closeR} className="closeButton">Close</button>
                 </div>
