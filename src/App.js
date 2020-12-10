@@ -1,4 +1,5 @@
 import React from "react"
+import { Route, Link } from "react-router-dom"
 import logo from './logo.svg';
 import './App.css';
 import Project from "./project"
@@ -8,6 +9,7 @@ import SuperheroModal from './SuperheroModal';
 import AnimeModal from './AnimeModal'
 import CodexModal from './CodexModal'
 import Connect4Modal from './Connect4Modal'
+import Resume from './resume'
 
 function App() {
 
@@ -41,7 +43,7 @@ function App() {
         <div className = "socialMedia">
           <a href="https://github.com/joeybodoia" target="_blank" class="fa fa-github-square"></a>
           <a href="https://www.linkedin.com/in/joseph-bodoia/" target="_blank" class="fa fa-linkedin-square"></a>
-          <a href="#" target="_blank" class="fa fa-file-text"></a>
+          <Link to="/resumé"><a href="#" target="_blank" class="fa fa-file-text"></a></Link>
           <a href="mailto:jbodoia21@cmc.edu?Subject=Hello%20There!" target="_blank" class="fa fa-envelope-square"></a>
         </div>
       </header>
@@ -102,6 +104,7 @@ function App() {
             open={openModalC4}
           />
         </div>
+        <Route exact path="/resumé" render={(rp) => <Resume/>} />
     </div>
     </div>
   );
