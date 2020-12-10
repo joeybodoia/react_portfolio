@@ -54,7 +54,7 @@ function App() {
         </div>
         <div className = "description">
           <p>
-            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a sequence in Computer Science. In addition to pursuing Data Science and Computer Science at CMC, I am currently in the final month of a 6 month software engineering immersive program at General Assembly. Through this cohort, I have gained experience with full-stack development, utilizing tools such as HTML, CSS, JavaScript, jQuery, Express, MongoDB, Mongoose, React.js, Node.js, Ruby, and Ruby on Rails. I have hosted a few of my full-stack web applications, as well as one video game project, in the project section below. I am looking to expand on my experience as a full-stack developer through an internship in summer 2021.
+            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a sequence in Computer Science. In addition to studying Data Science and Computer Science at CMC, I am currently in the final month of a 6 month software engineering immersive program at General Assembly. Through this cohort, I have gained experience with full-stack development, utilizing tools such as HTML, CSS, JavaScript, jQuery, Express, MongoDB, Mongoose, React.js, Node.js, Ruby, and Ruby on Rails. I have hosted a few of my full-stack web applications, as well as one video game project, in the project section below. I am looking to expand on my experience as a full-stack developer through an internship in summer 2021.
           </p>
         </div>
       </div>
