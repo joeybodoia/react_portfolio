@@ -134,7 +134,7 @@ body {
   margin: 1vw 4vw 6vw 4vw;
 }
 .socialMedia a:hover {
-	color: rgba(255,223,0,0.6);
+	color: rgba(255,223,0);
 }
 
 .fa-github-square {
@@ -292,6 +292,24 @@ body {
 .Modal-img-codex button a {
   text-decoration: none;
   color: rgb(255,223,0);
+}
+
+
+.modal-box-resume {
+  position: relative;
+  top:52%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  min-height: 30%;
+  width: 80%;
+  overflow-y:auto;
+  background-color:lightgray;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  z-index: 101;
+  padding: 40px;
+  border-radius:10px;
+  font-family: 'Source Code Pro', monospace;
+  height: 90%;
 }
 
 .aboutMe {

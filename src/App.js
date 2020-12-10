@@ -9,7 +9,7 @@ import SuperheroModal from './SuperheroModal';
 import AnimeModal from './AnimeModal'
 import CodexModal from './CodexModal'
 import Connect4Modal from './Connect4Modal'
-import Resume from './resume'
+import ResumeModal from './resume'
 
 function App() {
 
@@ -20,6 +20,8 @@ function App() {
   const modalCRef = React.useRef()
 
   const modalC4Ref = React.useRef()
+
+  const modalRRef = React.useRef()
 
   const openModal = () => {
     modalRef.current.openModal()
@@ -36,6 +38,10 @@ function App() {
   const openModalC4 = () => {
     modalC4Ref.current.openModalC4()
   }
+
+  const openModalR = () => {
+    modalRRef.current.openModalR()
+  }
   
   return (
     <div className="App">
@@ -43,7 +49,7 @@ function App() {
         <div className = "socialMedia">
           <a href="https://github.com/joeybodoia" target="_blank" class="fa fa-github-square"></a>
           <a href="https://www.linkedin.com/in/joseph-bodoia/" target="_blank" class="fa fa-linkedin-square"></a>
-          <Link to="/resumé"><a href="#" target="_blank" class="fa fa-file-text"></a></Link>
+          <a href="#" class="fa fa-file-text" onClick={openModalR}></a>
           <a href="mailto:jbodoia21@cmc.edu?Subject=Hello%20There!" target="_blank" class="fa fa-envelope-square"></a>
         </div>
       </header>
@@ -56,7 +62,7 @@ function App() {
         </div>
         <div className = "description">
           <p>
-            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a sequence in Computer Science. In addition to studying Data Science and Computer Science at CMC, I am currently in the final month of a 6 month software engineering immersive program at General Assembly. Through this cohort, I have gained experience with full-stack development, utilizing tools such as HTML, CSS, JavaScript, jQuery, Express, MongoDB, Mongoose, React.js, Node.js, Ruby, and Ruby on Rails. I have hosted a few of my full-stack web applications, as well as one video game project, in the project section below. I am looking to expand on my experience as a full-stack developer through an internship in summer 2021.
+            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a minor (sequence) in Computer Science. In addition to studying Data Science and Computer Science at CMC, I am currently in the final month of a 6 month software engineering immersive program at General Assembly. Through this cohort, I have gained experience with full-stack development, utilizing tools such as HTML, CSS, JavaScript, jQuery, Express, MongoDB, Mongoose, React.js, Node.js, Ruby, and Ruby on Rails. I have hosted a few of my full-stack web applications, as well as one video game project, in the project section below. I am looking to expand on my experience as a full-stack developer through an internship in summer 2021.
           </p>
         </div>
       </div>
@@ -64,6 +70,7 @@ function App() {
       <AnimeModal ref={modalARef}/>
       <CodexModal ref={modalCRef}/>
       <Connect4Modal ref={modalC4Ref}/>
+      <ResumeModal ref={modalRRef}/>
       <div className="projectTitle">
        <h2>Projects</h2>
       </div>
@@ -104,7 +111,6 @@ function App() {
             open={openModalC4}
           />
         </div>
-        <Route exact path="/resumé" render={(rp) => <Resume/>} />
     </div>
     </div>
   );
