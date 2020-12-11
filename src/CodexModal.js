@@ -39,7 +39,9 @@ const CodexModal = forwardRef((props, ref) => {
                         </div>
                     </div>
                 </div>
-                <button onClick={closeC} className="closeButton">Close</button>
+                <div className="closeButtonContainer">
+                    <button onClick={closeC} className="closeButton">Close</button>
+                </div>
             </div>
         </div>, document.getElementById("modal-root")
     )

@@ -37,7 +37,9 @@ const Connect4Modal = forwardRef((props, ref) => {
                         </div>
                     </div>
                 </div>
-                <button onClick={closeC4} className="closeButton">Close</button>
+                <div className="closeButtonContainer">
+                    <button onClick={closeC4} className="closeButton">Close</button>
+                </div>
             </div>
         </div>, document.getElementById("modal-root")
     )

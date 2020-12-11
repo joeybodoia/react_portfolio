@@ -38,7 +38,7 @@ const SuperheroModal = forwardRef((props, ref) => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="closeButtonContainer">
                     <button onClick={close} className="closeButton">Close</button>
                 </div>
             </div>

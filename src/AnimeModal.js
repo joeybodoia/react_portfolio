@@ -38,7 +38,9 @@ const AnimeModal = forwardRef((props, ref) => {
                         </div>
                     </div>
                 </div>
-                <button onClick={closeA} className="closeButton">Close</button>
+                <div className="closeButtonContainer">
+                    <button onClick={closeA} className="closeButton">Close</button>
+                </div>
             </div>
         </div>, document.getElementById("modal-root")
     )
