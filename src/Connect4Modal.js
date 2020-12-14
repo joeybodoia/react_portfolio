@@ -34,7 +34,7 @@ const Connect4Modal = forwardRef((props, ref) => {
                         </div>
                     </div>
                     <p>
-                        This is a small video game project I did for one of my computer science courses at Claremont Mckenna. I used VPython on the GlowScript IDE to create a 3D animated connect 4 game, where a user plays a game against AI. The game logic was created using a myriad of functions written in python, which allow the user to choose which move to make, and instruct the 'computer' how to respond to a user's move. Check out the game, as well as the code, at the link to the right!
+                        This is a small video game project I did for one of my computer science courses at Claremont Mckenna. I used VPython on the GlowScript IDE to create a 3D animated connect 4 game, where a user plays a game against AI. The game logic was created using a myriad of functions written in python, which allow the user to choose which move to make, and instruct the 'computer' how to respond to a user's move. Check out the game, as well as the code, by clicking pn the 'App' button!
                     </p>
                 </div>
                 <div className="closeButtonContainer">
