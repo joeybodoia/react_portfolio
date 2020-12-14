@@ -32,7 +32,7 @@ const CodexModal = forwardRef((props, ref) => {
                         <div className= "buttonContainer">
                             <button><a href="https://github.com/joeybodoia/testProject" target="_blank">Github Frontend</a></button>
                             <button><a href="https://github.com/joeybodoia/testProject" target="_blank">Github Backend</a></button>
-                            <button><a href="https://jbproject2.herokuapp.com/animeRec" target="_blank">App</a></button>
+                            <button><a  id="CodexAppText" href="https://jbproject2.herokuapp.com/animeRec" target="_blank">App</a></button>
                         </div>
                     </div>
                     <p>

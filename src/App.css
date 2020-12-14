@@ -444,9 +444,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vw;
-    width: 11vw;
-    margin-top: 1vw;
+    height: 8vw;
+    width: 13vw;
+    margin-top: 1.5vw;
     border: 2px solid black;
     border-radius: 3px;
     background-color: rgb(128,0,0);
@@ -456,7 +456,11 @@ body {
   .Modal-img-codex button a {
     text-decoration: none;
     color: rgb(255,223,0);
-    font-size: 1.8vw;
+    font-size: 2.3vw;
+  }
+
+  #CodexAppText {
+    font-size: 3.5vw;
   }
 
 }
