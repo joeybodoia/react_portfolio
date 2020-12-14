@@ -27,17 +27,17 @@ const CodexModal = forwardRef((props, ref) => {
             <div className={"modal-box"}>
                 <h1>Codex</h1>
                 <div className="Modal-container">
-                    <p>
-                        Codex is a full-stack MERN web application that provides resources for users interested in software development. Resources are divided into 5 categories: Tech gear, Code Games, Videos, Cheatsheets, and Interview Prep. The goal of this application was to develop a one stop shop platform for aspiring software engineers to access useful resources for learning to code. I created the backend API using Node.js, Express, and Mongoose, and hosted the API on MongoDB. Postman was used to populate the API with data. I used React.js for all frontend functionality.
-                    </p>
                     <div className="Modal-img-codex">
-                        <img src="https://i.imgur.com/EcRSwWm.png" style={{'width':'26vw'}}></img>
+                        <img src="https://i.imgur.com/EcRSwWm.png" ></img>
                         <div className= "buttonContainer">
                             <button><a href="https://github.com/joeybodoia/testProject" target="_blank">Github Frontend</a></button>
                             <button><a href="https://github.com/joeybodoia/testProject" target="_blank">Github Backend</a></button>
                             <button><a href="https://jbproject2.herokuapp.com/animeRec" target="_blank">App</a></button>
                         </div>
                     </div>
+                    <p>
+                        Codex is a full-stack MERN web application that provides resources for users interested in software development. Resources are divided into 5 categories: Tech gear, Code Games, Videos, Cheatsheets, and Interview Prep. The goal of this application was to develop a one stop shop platform for aspiring software engineers to access useful resources for learning to code. I created the backend API using Node.js, Express, and Mongoose, and hosted the API on MongoDB. Postman was used to populate the API with data. I used React.js for all frontend functionality.
+                    </p>
                 </div>
                 <div className="closeButtonContainer">
                     <button onClick={closeC} className="closeButton">Close</button>
