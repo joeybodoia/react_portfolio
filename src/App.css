@@ -553,3 +553,35 @@ body {
     font-family: 'Source Code Pro', monospace;
   }
 }
+
+.Skills {
+  border: 3px solid black;
+  border-radius: 7px;
+  background-color: lightgray;
+  margin: 2vw 4vw 8vw 4vw;
+  font-family: 'Source Code Pro', monospace;
+  /* height: 30vw; */
+}
+
+.skillsText {
+  font-size:2vw;
+}
+
+i.fab {
+  font-size:7vw;
+}
+
+i.fas {
+  font-size:7vw;
+}
+
+.skill {
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

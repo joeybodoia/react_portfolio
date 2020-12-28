@@ -3,6 +3,7 @@ import { Route, Link } from "react-router-dom"
 import logo from './logo.svg';
 import './App.css';
 import Project from "./project"
+import Skills from "./Skills"
 import Navbar from "./navbar"
 import SSModal from "./SuperheroModal"
 import SuperheroModal from './SuperheroModal';
@@ -47,8 +48,8 @@ function App() {
     <div className="App">
       <header class="header">
         <div className = "socialMedia">
-          <a href="https://github.com/joeybodoia" target="_blank" class="fa fa-github-square"></a>
-          <a href="https://www.linkedin.com/in/joseph-bodoia/" target="_blank" class="fa fa-linkedin-square"></a>
+          <a href="https://github.com/joeybodoia" target="_blank" class="fab fa-github-square"></a>
+          <a href="https://www.linkedin.com/in/joseph-bodoia/" target="_blank" class="fab fa-linkedin-square"></a>
           {/* <a href="#" class="fa fa-file-text" onClick={openModalR}></a> */}
           <a href="https://docs.google.com/document/d/e/2PACX-1vQOgBR3-ZnM9AWNY5Lq0XVWedr_6CVaRmZSVHiN1730gizFXrWV0N7pqVsNR22GiQ/pub" target="_blank" class="fa fa-file-text"></a>
           <a href="mailto:jbodoia21@cmc.edu?Subject=Hello%20There!" target="_blank" class="fa fa-envelope-square"></a>
@@ -63,8 +64,12 @@ function App() {
         </div>
         <div className = "description">
           <p>
-            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a minor in Computer Science. In addition to studying Data Science and Computer Science at CMC, I am currently in the final month of a 6 month software engineering immersive program at General Assembly. Through this cohort, I have gained experience with full-stack development, utilizing tools such as HTML, CSS, JavaScript, jQuery, Express, MongoDB, Mongoose, React.js, Node.js, Ruby, and Ruby on Rails. I have hosted a few of my full-stack web applications, as well as one video game project, in the project section below. I am looking to expand on my experience as a full-stack developer through an internship in summer 2021.
+            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a minor in Computer Science. In addition to studying Data Science and Computer Science at CMC, I am currently in the final week of a 6 month software engineering immersive program at General Assembly.
           </p>
+        </div>
+        <div className="Skills">
+          <h1>Skills</h1>
+          <Skills/>
         </div>
       </div>
       <SuperheroModal ref={modalRef} />
