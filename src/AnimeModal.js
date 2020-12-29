@@ -26,6 +26,7 @@ const AnimeModal = forwardRef((props, ref) => {
             <div onClick={closeA} className={"modal-backdrop"}></div>
             <div className={"modal-box"}>
                 <h1>AniméRex</h1>
+                <h2>Mobile Friendly? Yes</h2>
                 <div className="Modal-container">
                 <div className="Modal-img">
                         <img src="https://i.imgur.com/1wY7gZ9.png" ></img>

@@ -26,6 +26,7 @@ const SuperheroModal = forwardRef((props, ref) => {
             <div onClick={close} className={"modal-backdrop"}></div>
             <div className={"modal-box"}>
                 <h1>SuperHero Showdown</h1>
+                <h2>Mobile Friendly? No</h2>
                 <div className="Modal-container">
                     <div className="Modal-img">
                         <img src="https://i.imgur.com/Or6MzZK.png" ></img>

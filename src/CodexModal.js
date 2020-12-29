@@ -27,6 +27,7 @@ const CodexModal = forwardRef((props, ref) => {
             <div onClick={closeC} className={"modal-backdrop"}></div>
             <div className={"modal-box"}>
                 <h1>Codex</h1>
+                <h2>Mobile Friendly? No</h2>
                 <div className="Modal-container">
                     <div className="Modal-img-codex">
                         <img src="https://i.imgur.com/EcRSwWm.png" ></img>

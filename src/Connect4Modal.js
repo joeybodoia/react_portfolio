@@ -26,6 +26,7 @@ const Connect4Modal = forwardRef((props, ref) => {
             <div onClick={closeC4} className={"modal-backdrop"}></div>
             <div className={"modal-box"}>
                 <h1>Connect4AI</h1>
+                <h2>Mobile Friendly? Yes</h2>
                 <div className="Modal-container">
                     <div className="Modal-img">
                         <img src="https://i.imgur.com/1020U8p.png" ></img>

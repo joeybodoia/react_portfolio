@@ -26,6 +26,7 @@ const SnakeModal = forwardRef((props, ref) => {
             <div onClick={closeS} className={"modal-backdrop"}></div>
             <div className={"modal-box"}>
                 <h1>Snake Game Remastered</h1>
+                <h2>Mobile Friendly? No</h2>
                 <div className="Modal-container">
                     <div className="Modal-img-codex">
                         <img src="https://i.imgur.com/PenpT8R.png" ></img>
