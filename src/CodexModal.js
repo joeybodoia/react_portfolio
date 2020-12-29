@@ -20,6 +20,7 @@ const CodexModal = forwardRef((props, ref) => {
         setDisplay(false)
     }
 
+
     if (display) {
         return ReactDOM.createPortal(
         <div className={'modal-wrapper'}>
@@ -30,9 +31,9 @@ const CodexModal = forwardRef((props, ref) => {
                     <div className="Modal-img-codex">
                         <img src="https://i.imgur.com/EcRSwWm.png" ></img>
                         <div className= "buttonContainer">
-                            <button><a href="https://github.com/joeybodoia/testProject" target="_blank">Github Frontend</a></button>
-                            <button><a href="https://github.com/joeybodoia/testProject" target="_blank">Github Backend</a></button>
-                            <button><a  id="CodexAppText" href="https://jbproject2.herokuapp.com/animeRec" target="_blank">App</a></button>
+                            <button><a href="https://github.com/joeybodoia/project3Frontend" target="_blank">Github Frontend</a></button>
+                            <button><a href="https://github.com/joeybodoia/project3Backend" target="_blank">Github Backend</a></button>
+                            <button><a  id="CodexAppText" href="https://reverent-kalam-023988.netlify.app/" target="_blank">App</a></button>
                         </div>
                     </div>
                     <p>

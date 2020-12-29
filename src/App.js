@@ -11,6 +11,7 @@ import AnimeModal from './AnimeModal'
 import CodexModal from './CodexModal'
 import Connect4Modal from './Connect4Modal'
 import ResumeModal from './resume'
+import SnakeModal from "./SnakeModal";
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
   const modalC4Ref = React.useRef()
 
   const modalRRef = React.useRef()
+
+  const modalSRef = React.useRef()
 
   const openModal = () => {
     modalRef.current.openModal()
@@ -44,6 +47,11 @@ function App() {
     modalRRef.current.openModalR()
   }
   
+  const openModalS = () => {
+    modalSRef.current.openModalS()
+  }
+
+
   return (
     <div className="App">
       <header class="header">
@@ -77,6 +85,7 @@ function App() {
       <CodexModal ref={modalCRef}/>
       <Connect4Modal ref={modalC4Ref}/>
       <ResumeModal ref={modalRRef}/>
+      <SnakeModal ref={modalSRef}/>
       <div className="projectTitle">
        <h2>Projects</h2>
       </div>
@@ -88,6 +97,16 @@ function App() {
             live={"https://ga-project1.vercel.app/"}
             img={"https://i.imgur.com/Or6MzZK.png"}
             open={openModal}
+          />
+        </div>
+        <div className="project">
+          <Project
+            name={"Snake Game Remastered"}
+            gitFront={"https://github.com/joeybodoia/game_frontend"}
+            gitBack={"https://github.com/joeybodoia/snake_backend"}
+            live={"https://gallant-colden-513da5.netlify.app/"}
+            img={"https://i.imgur.com/PenpT8R.png"}
+            open={openModalS}
           />
         </div>
         <div className="project">

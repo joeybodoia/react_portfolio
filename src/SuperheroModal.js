@@ -34,9 +34,14 @@ const SuperheroModal = forwardRef((props, ref) => {
                             <button><a href="https://ga-project1.vercel.app/" target="_blank">App</a></button>
                         </div>
                     </div>
-                    <p>
-                        For my first web development project, I created a simple clientside application using only HTML, CSS, and jQuery. This application lets a user choose two superheroes from a randomly generated list and makes the heroes battle against each other. I used a third-party API, superheroapi.com, to retrieve the superhero data, such as images and statistics. The power and accuracy statistics for a given superhero are used in the game logic to determine how good of a fighter the hero will be. Hope you enjoy!
-                    </p>
+                    <div>
+                        <p>
+                            For my first web development project, I created a simple clientside application using only HTML, CSS, and jQuery. This application lets a user choose two superheroes from a randomly generated list and makes the heroes battle against each other. I used a third-party API, superheroapi.com, to retrieve the superhero data, such as images and statistics. The power and accuracy statistics for a given superhero are used in the game logic to determine how good of a fighter the hero will be. Hope you enjoy!
+                        </p>
+                        <p>
+                            Tools/Technologies used: HTML, CSS, jQuery, AJAX
+                        </p>
+                    </div>
                 </div>
                 <div className="closeButtonContainer">
                     <button onClick={close} className="closeButton">Close</button>
