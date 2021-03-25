@@ -72,7 +72,7 @@ function App() {
         </div>
         <div className = "description">
           <p>
-            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a minor in Computer Science. In addition to studying Data Science and Computer Science at CMC, I am currently in the final week of a 6 month software engineering immersive program at General Assembly.
+            Welcome to my portfolio page! I am a junior at Claremont McKenna College, majoring in Data Science with a minor in Computer Science. In addition to studying Data Science and Computer Science at CMC, I recently completed a 6 month Software Engineering Immersive Bootcamp with General Assembly, and have spent the last 3 months working as a full-stack developer intern at a startup called Redko.
           </p>
         </div>
         <div className="Skills">
