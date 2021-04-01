@@ -59,7 +59,7 @@ function App() {
           <a href="https://github.com/joeybodoia" target="_blank" class="fab fa-github-square"></a>
           <a href="https://www.linkedin.com/in/joseph-bodoia/" target="_blank" class="fab fa-linkedin-square"></a>
           {/* <a href="#" class="fa fa-file-text" onClick={openModalR}></a> */}
-          {/* <a href="https://docs.google.com/document/d/e/2PACX-1vQOgBR3-ZnM9AWNY5Lq0XVWedr_6CVaRmZSVHiN1730gizFXrWV0N7pqVsNR22GiQ/pub" target="_blank" class="fa fa-file-text"></a> */}
+          
           <a href="https://docs.google.com/document/d/e/2PACX-1vQOgBR3-ZnM9AWNY5Lq0XVWedr_6CVaRmZSVHiN1730gizFXrWV0N7pqVsNR22GiQ/pub" target="_blank" class="fa fa-file-text"></a>
           <a href="mailto:jbodoia21@cmc.edu?Subject=Hello%20There!" target="_blank" class="fa fa-envelope-square"></a>
         </div>
