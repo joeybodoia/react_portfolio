@@ -39,9 +39,9 @@ function App() {
     modalCRef.current.openModalC()
   }
 
-  const openModalC4 = () => {
-    modalC4Ref.current.openModalC4()
-  }
+  // const openModalC4 = () => {
+  //   modalC4Ref.current.openModalC4()
+  // }
 
   const openModalR = () => {
     modalRRef.current.openModalR()
@@ -129,14 +129,14 @@ function App() {
             open={openModalC}
           />
         </div>
-        <div className="project">
+        {/* <div className="project">
           <Project
             name={"Connect4AI"}
             live={"https://www.glowscript.org/#/user/jbodoia21/folder/MyPrograms/program/Connect4Project"}
             img={"https://i.imgur.com/1020U8p.png"}
             open={openModalC4}
           />
-        </div>
+        </div> */}
     </div>
     </div>
   );
